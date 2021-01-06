@@ -41,7 +41,7 @@ THEN I am taken to the corresponding section of the README
 
 * [Installation](#Installation)  
 * [Usage](#Usage) 
-* [Image of the app](#Image-of-the-app-:mag:) 
+* [Image of the app](#Image%20of%20the%20app%20:mag:) 
 * [License](#License)  
 * [Contact](#Contact) 
 
@@ -50,11 +50,12 @@ THEN I am taken to the corresponding section of the README
   
 - Open a terminal instance  
 - Clone the following [repo](https://github.com/Delph-Sunny/09-ReadMe_Generator)  
+- Navigate to the app folder, using `cd app`
 - In the working directory, install the Inquirer package with the following code line `npm i`  
 - Once the dependencies have been installed, enter `node index.js`  
-- Answer to each question following with Enter. A readMe.md file will be generated once all answers will be provided.  
+- Answer to each question following with Enter. A README.md file will be generated once all answers have been provided.  
 
-###### Note: Node.js installation is required prior to use this app.  
+###### Note: Node.js installation is required before using this app.  
 
 ## Image of the app :mag:  
 
