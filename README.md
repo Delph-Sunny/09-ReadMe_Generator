@@ -13,12 +13,12 @@
 
 
 ## Description
-This app will generate a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer)
+This app will generate a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
-```md
-Acceptance criteria's user story
 ```
-```md
+User Story Acceptance Criteria
+```
+```
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
