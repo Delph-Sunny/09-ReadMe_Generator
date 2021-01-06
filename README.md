@@ -41,7 +41,7 @@ THEN I am taken to the corresponding section of the README
 
 * [Installation](#Installation)  
 * [Usage](#Usage) 
-* [Image of the app](#Image%20of%20the%20app%20:mag:) 
+* [Image of the app](#Image-of-the-app-) 
 * [License](#License)  
 * [Contact](#Contact) 
 
@@ -56,6 +56,7 @@ THEN I am taken to the corresponding section of the README
 - Answer to each question following with Enter. A README.md file will be generated once all answers have been provided.  
 
 ###### Note: Node.js installation is required before using this app.  
+
 
 ## Image of the app :mag:  
 
