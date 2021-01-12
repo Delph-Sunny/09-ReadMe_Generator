@@ -6,7 +6,7 @@
 
 ---
 
-<a href="https://img.shields.io/badge/javascript-100%25-blue?style=plastic" target="_blank"><img alt="JavaScript use" src="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"/></a>
+![](https://img.shields.io/badge/javascript-100%25-blue?style=plastic") {:target="_blank"}  
  <a href="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic" target="_blank"><img alt="Node.js use" src="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"/></a>
  <a href="https://img.shields.io/badge/npm-Inquirer-red?style=plastic" target="_blank"><img alt="npm package Inquirer" src="https://img.shields.io/badge/npm-Inquirer-red?style=plastic" /></a>
  <a href="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic" target="_blank"><img alt="M.I.T. License use" src="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"/></a>  
