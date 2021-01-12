@@ -68,12 +68,12 @@ const promptUser = () => {
             message: "Pick the license type:",
             choices: [
                 "None",
-                "Apache 2.0",
-                "GPL 3.0",
-                "MIT",
-                "LGPL 3.0",
-                "CDDL 1.0",
-                "MPL 2.0"
+                "Apache 2.0",                
+                "GNU GPL 3.0",
+                "GNU LGPL 3.0",
+                "MIT",     
+                "MPL 2.0",
+                "The Unlicense"
             ]
         }
     ])
