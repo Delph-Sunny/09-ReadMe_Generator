@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (license === "None") {
     return ``;
   } else if (license === "Apache 2.0") {
-    return `<a href="https://img.shields.io/badge/License-Apache2.0-brightgreen?style=plastic"><img alt="Apache 2.0 License used" src="https://img.shields.io/badge/License-Apache2.0-brightgreen?style=plastic"></a>`; 
+    return `<a href="https://img.shields.io/badge/License-Apache2.0-brightgreen?style=plastic"><img alt="Apache 2.0 License used" src="https://img.shields.io/badge/License-Apache2.0-brightgreen?style=plastic"></a>`;
   } else if (license === "GNU GPL 3.0") {
     return `<a href="https://img.shields.io/badge/License-GPL3.0-brightgreen?style=plastic"><img alt="GPL 3.0 License used" src="https://img.shields.io/badge/License-GPL3.0-brightgreen?style=plastic"></a>`;
   } else if (license === "GNU LGPL 3.0") {
@@ -50,8 +50,32 @@ This project is [${license}](${renderLicenseLink(license)}) licensed.  `;
   }
 }
 
+// Function that returns the TOC with or without the License link
+function renderTOC(license) {
+  if (license === "None") {
+    return `* [Installation](#Installation)  
+* [Usage](#Usage) 
+* [Contributing](#Contributing)   
+* [Tests](#Tests)  
+* [Questions](#Questions)  
+`;
+  } else {
+    return `* [Installation](#Installation)  
+* [Usage](#Usage)  
+* [License](#License)  
+* [Contributing](#Contributing)   
+* [Tests](#Tests)  
+* [Questions](#Questions)  
+`;
+  }
+}
+
+
 // Function to generate markdown for README
 function generateMarkdown(data) {
+  if (data.title === "") { data.title = "PROJECT TITLE"; }  // Check for empty title input
+  if (data.description === "") { data.description = "Enter project description here."; } // Check for empty description input
+
   return `# ${data.title}  
   
 <a href="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"><img alt="JavaScript use" src="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"></a> 
@@ -63,13 +87,7 @@ ${renderLicenseBadge(data.license)}
 ${data.description}  
 
 ## Table of Contents  
-* [Installation](#Installation)  
-* [Usage](#Usage)  
-* [License](#License)  
-* [Contributing](#Contributing)   
-* [Tests](#Tests)  
-* [Questions](#Questions)  
-
+${renderTOC(data.license)} 
 
 ## Installation  
 ${data.installation}  
@@ -88,9 +106,10 @@ ${data.tests}
 
 ## Questions  
 For questions or feedback, please contact ${data.username} at ${data.email}.  
-Check out other repositories [here](https://github.com/${data.username}/).  
+Check out the other repositories [here](https://github.com/${data.username}/).  
 
-*This README was generated with [ReadMe\_Generator](https://github.com/Delph-Sunny/09-ReadMe_Generator)*
+
+<span align="center">*This README was generated with [ReadMe\_Generator](https://github.com/Delph-Sunny/09-ReadMe_Generator)*</span>
 
 ---
 `;
