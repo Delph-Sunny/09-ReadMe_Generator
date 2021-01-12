@@ -1,11 +1,5 @@
 # 09-ReadMe_Generator  
 
-
-:construction:   IN PROGRESS  :construction:  
-
-
----
-
 <a href="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"><img alt="JavaScript use" src="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"/></a>
  <a href="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"><img alt="Node.js use" src="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"/></a>
  <a href="https://img.shields.io/badge/npm-Inquirer-red?style=plastic"><img alt="npm package Inquirer" src="https://img.shields.io/badge/npm-Inquirer-red?style=plastic" /></a>
@@ -59,10 +53,11 @@ THEN I am taken to the corresponding section of the README
 
 ## Image of the app :mag:  
 
-![Generated_ReadMe](./images/snippet.PNG)
+![Generated_ReadMe](./images/snippet.PNG)  
 
 
-
+The movie showing functionality of the application:
+![Video](./images/video.gif)
 
 
 ## License  

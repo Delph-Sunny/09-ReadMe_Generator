@@ -1,4 +1,4 @@
-# PROJECT TITLE  
+# My Beautiful Project  
   
 <a href="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"><img alt="JavaScript use" src="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"></a> 
 <a href="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"><img alt="Node.js use" src="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"></a> 
@@ -6,7 +6,7 @@
 <a href="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"><img alt="MIT License used" src="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"></a>   
 
 ## Description
-Enter project description here.  
+This is a short description of this test.  
 
 ## Table of Contents  
 * [Installation](#Installation)  
@@ -18,11 +18,11 @@ Enter project description here.
  
 
 ## Installation  
-Download and unzip  
+Download, unzip, run npm i  
   
 
 ## Usage  
-Type node index.js   
+run node index.js in app root directory   
 
 ## License  
 Copyright (c) 2021 Delph-Sunny.  
@@ -39,14 +39,13 @@ For questions or feedback, please contact Delph-Sunny at delph@fakeemail.com.
 Check out the other repositories [here](https://github.com/Delph-Sunny/).  
 
 
+
 ****  
 
 
-<p style="text-align:center"><i>This README was generated with <a href="https://github.com/Delph-Sunny/09-ReadMe_Generator">ReadMe_Generator</a></i>
-</p>
+<div style="text-align:center">
+<i>This README was generated with <a href="https://github.com/Delph-Sunny/09-ReadMe_Generator">ReadMe_Generator</a></i>
+</div>
 
 
 ---
- 
-
-
