@@ -70,14 +70,13 @@ ${data.description}
 * [License](#License)  
 * [Contributing](#Contributing-)  
 * [Tests] (#Tests)  
-* [Questions](#Questions)  
+* [Questions](#Questions-)  
 
 
 ## Installation  
 
 ${data.installation}  
-
-###### Note: Node.js installation is required before using this app.  
+  
 
 ## Usage  
 
@@ -86,7 +85,7 @@ ${data.usage}
 
 ${renderLicenseSection(data.license)}  
 
-## Contributing  
+## Contributing :raising_hand:   
 
 ${data.contribution}  
 
@@ -94,10 +93,10 @@ ${data.contribution}
 
 ${data.tests}  
 
-## Questions   
+## Questions :question:   
 
 For questions or feedback, please contact ${data.username} at ${data.email}. 
-Check out the other repository work [here](https://github.com/${data.username}/)  
+Check out other repositories [here](https://github.com/${data.username}/)  
 
 ---
 `;
