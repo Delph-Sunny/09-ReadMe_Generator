@@ -111,7 +111,8 @@ Check out the other repositories [here](https://github.com/${data.username}/).
 
 
 
-<p align="center">*This README was generated with [ReadMe\_Generator](https://github.com/Delph-Sunny/09-ReadMe_Generator)*</p>
+->*This README was generated with [ReadMe\_Generator](https://github.com/Delph-Sunny/09-ReadMe_Generator)*<-  
+
 
 ---
 `;
