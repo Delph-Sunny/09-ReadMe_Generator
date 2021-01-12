@@ -109,16 +109,14 @@ For questions or feedback, please contact ${data.username} at ${data.email}.
 Check out the other repositories [here](https://github.com/${data.username}/).  
 
 
-
-****  
-
-
-<div style="text-align:center">
+ 
+----
+  
+  
+<table align="center"><tr><td align="center" width="9999">
 <i>This README was generated with <a href="https://github.com/Delph-Sunny/09-ReadMe_Generator">ReadMe_Generator</a></i>
-</div>
+</td></tr></table>  
 
-
----
 `;
 }
 
