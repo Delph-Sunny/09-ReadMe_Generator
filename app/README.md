@@ -39,9 +39,14 @@ For questions or feedback, please contact Delph-Sunny at delph@fakeemail.com.
 Check out the other repositories [here](https://github.com/Delph-Sunny/).  
 
 
+****  
 
 
-->*This README was generated with [ReadMe_Generator](https://github.com/Delph-Sunny/09-ReadMe_Generator)*<-  
+<div style="text-align:center"><i>This README was generated with <a href="https://github.com/Delph-Sunny/09-ReadMe_Generator">ReadMe_Generator</a></i>
+</div>
 
 
 ---
+ 
+
+
