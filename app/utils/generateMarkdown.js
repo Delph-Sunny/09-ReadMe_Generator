@@ -68,9 +68,9 @@ ${data.description}
 * [Installation](#Installation)  
 * [Usage](#Usage)  
 * [License](#License)  
-* [Contributing](#Contributing-)  
+* [Contributing](#Contributing)  
 * [Tests] (#Tests)  
-* [Questions](#Questions-)  
+* [Questions](#Questions)  
 
 
 ## Installation  
@@ -85,7 +85,7 @@ ${data.usage}
 
 ${renderLicenseSection(data.license)}  
 
-## Contributing :raising_hand:   
+## Contributing    
 
 ${data.contribution}  
 
@@ -93,7 +93,7 @@ ${data.contribution}
 
 ${data.tests}  
 
-## Questions :question:   
+## Questions  
 
 For questions or feedback, please contact ${data.username} at ${data.email}. 
 Check out other repositories [here](https://github.com/${data.username}/)  
