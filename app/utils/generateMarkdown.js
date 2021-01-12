@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (license === "None") {
     return ``;
   } else if (license === "Apache 2.0") {
-    return `<a href="https://img.shields.io/badge/License-Apache2.0-brightgreen?style=plastic"><img alt="Apache 2.0 License used" src="https://img.shields.io/badge/License-Apache2.0-brightgreen?style=plastic"></a>`;
+    return `<a href="https://img.shields.io/badge/License-Apache2.0-brightgreen?style=plastic"><img alt="Apache 2.0 License used" src="https://img.shields.io/badge/License-Apache2.0-brightgreen?style=plastic"></a>`; 
   } else if (license === "GNU GPL 3.0") {
     return `<a href="https://img.shields.io/badge/License-GPL3.0-brightgreen?style=plastic"><img alt="GPL 3.0 License used" src="https://img.shields.io/badge/License-GPL3.0-brightgreen?style=plastic"></a>`;
   } else if (license === "GNU LGPL 3.0") {
@@ -40,13 +40,13 @@ function renderLicenseLink(license) {
 
 // Function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license, data) {
+function renderLicenseSection(license, name) {
   if (license === "None") {
     return ``;
   } else {
-    return `## License
-    Copyright (c) 2021 ${data.username}.  
-    This project is [${license}](${renderLicenseLink(license)}) licensed.`;
+    return `## License  
+Copyright (c) 2021 ${name}.  
+This project is [${license}](${renderLicenseLink(license)}) licensed.  `;
   }
 }
 
@@ -54,49 +54,43 @@ function renderLicenseSection(license, data) {
 function generateMarkdown(data) {
   return `# ${data.title}  
   
-<a href="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"><img alt="JavaScript use" src="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"></a>  
-<a href="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"><img alt="Node.js use" src="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"></a>  
-<a href="https://img.shields.io/badge/npm-Inquirer-red?style=plastic"><img alt="npm package Inquirer" src="https://img.shields.io/badge/npm-Inquirer-red?style=plastic"></a>  
-${renderBadges(data.license)}  
+<a href="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"><img alt="JavaScript use" src="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"></a> 
+<a href="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"><img alt="Node.js use" src="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"></a> 
+<a href="https://img.shields.io/badge/npm-Inquirer-red?style=plastic"><img alt="npm package Inquirer" src="https://img.shields.io/badge/npm-Inquirer-red?style=plastic"></a> 
+${renderLicenseBadge(data.license)}  
 
 ## Description
-
-${data.description} 
+${data.description}  
 
 ## Table of Contents  
-
 * [Installation](#Installation)  
 * [Usage](#Usage)  
 * [License](#License)  
-* [Contributing](#Contributing)  
-* [Tests] (#Tests)  
+* [Contributing](#Contributing)   
+* [Tests](#Tests)  
 * [Questions](#Questions)  
 
 
 ## Installation  
-
 ${data.installation}  
   
 
 ## Usage  
+${data.usage}   
 
-${data.usage}  
-
-
-${renderLicenseSection(data.license)}  
-
-## Contributing    
-
+${renderLicenseSection(data.license, data.username)}   
+  
+## Contributing  
 ${data.contribution}  
 
 ## Tests  
-
 ${data.tests}  
 
 ## Questions  
+For questions or feedback, please contact ${data.username} at ${data.email}.  
+Check out other repositories [here](https://github.com/${data.username}/).  
 
-For questions or feedback, please contact ${data.username} at ${data.email}. 
-Check out other repositories [here](https://github.com/${data.username}/)  
+*This README was generated with [ReadMe\_Generator](https://github.com/Delph-Sunny/09-ReadMe_Generator)*
 
 ---
 `;

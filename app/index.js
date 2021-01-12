@@ -86,7 +86,7 @@ const init = async () => {
         console.log(answers);       // FOR TESTING
         const readme = generateMarkdown(answers);
         console.log(readme);       // FOR TESTING 
-        await fs.writeFileAsync("README.md", readme);
+        await writeFileAsync("README.md", readme);
         console.log("README.md written successfully");
     } catch (error) {
         console.log(error);
