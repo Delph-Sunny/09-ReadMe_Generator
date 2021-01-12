@@ -56,7 +56,8 @@ THEN I am taken to the corresponding section of the README
 ![Generated_ReadMe](./images/snippet.PNG)  
 
 
-The movie showing functionality of the application:
+The movie showing functionality of the application:  
+
 ![Video](./images/video.gif)
 
 
