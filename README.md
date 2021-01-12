@@ -7,7 +7,9 @@
 
 
 ## Description
-This app will generate a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
+This app will generate a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).  
+
+:information_source:  
 
 ```
 User Story Acceptance Criteria
@@ -56,7 +58,7 @@ THEN I am taken to the corresponding section of the README
 ![Generated_ReadMe](./images/snippet.PNG)  
 
 
-The movie showing functionality of the application:  
+:movie_camera:  The movie showing functionality of the application:  
 
 ![Video](./images/video.gif)
 
@@ -68,7 +70,7 @@ This project is [MIT](https://choosealicense.com/licenses/mit) licensed.
 
 ## Contact  
 
-GitHub: [Delphine](https://github.com/Delph-Sunny)  
+:octocat:  GitHub: [Delphine](https://github.com/Delph-Sunny)  
 
 
 ---
