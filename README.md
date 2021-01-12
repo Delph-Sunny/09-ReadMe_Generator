@@ -60,7 +60,7 @@ THEN I am taken to the corresponding section of the README
 
 :movie_camera:  The movie showing functionality of the application:  
 
-![Video](./images/video.gif)
+![Video](./images/video.mp4)
 
 
 ## License  
