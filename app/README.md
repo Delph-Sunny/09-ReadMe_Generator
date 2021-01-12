@@ -1,4 +1,4 @@
-# My beautiful New Project  
+# My Beautiful New Project  
   
 <a href="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"><img alt="JavaScript use" src="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"></a> 
 <a href="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"><img alt="Node.js use" src="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"></a> 
@@ -43,9 +43,9 @@ Check out the other repositories [here](https://github.com/Delph-Sunny/).
 ****  
 
 
-<div style="text-align:center">
+<table align="center"><tr><td align="center" width="9999">
 <i>This README was generated with <a href="https://github.com/Delph-Sunny/09-ReadMe_Generator">ReadMe_Generator</a></i>
-</div>
+</td></tr></table>
 
 
 ---
