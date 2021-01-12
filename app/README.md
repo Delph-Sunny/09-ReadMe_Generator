@@ -1,4 +1,4 @@
-# My Beautiful Project  
+# My beautiful New Project  
   
 <a href="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"><img alt="JavaScript use" src="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"></a> 
 <a href="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"><img alt="Node.js use" src="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"></a> 
@@ -6,7 +6,7 @@
 <a href="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"><img alt="MIT License used" src="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"></a>   
 
 ## Description
-This is a short description of this test.  
+This is a short description of my project.  
 
 ## Table of Contents  
 * [Installation](#Installation)  
@@ -18,11 +18,11 @@ This is a short description of this test.
  
 
 ## Installation  
-Download, unzip, run npm i  
+Download the app, unzip and install all dependencies  
   
 
 ## Usage  
-run node index.js in app root directory   
+type node index.js   
 
 ## License  
 Copyright (c) 2021 Delph-Sunny.  
@@ -32,7 +32,7 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 My buddies  
 
 ## Tests  
-None  
+None at this point  
 
 ## Questions  
 For questions or feedback, please contact Delph-Sunny at delph@fakeemail.com.  
