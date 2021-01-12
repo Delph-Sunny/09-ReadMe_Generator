@@ -6,10 +6,10 @@
 
 ---
 
-<a href="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"><img alt="JavaScript use" src="https://img.shields.io/badge/javascript-100%25-blue?style=plastic" target="_blank" /></a>
- <a href="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"><img alt="Node.js use" src="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"></a>
- <a href="https://img.shields.io/badge/npm-Inquirer-red?style=plastic"><img alt="npm package Inquirer" src="https://img.shields.io/badge/npm-Inquirer-red?style=plastic"></a>
- <a href="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"><img alt="M.I.T. License use" src="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"></a>  
+<a href="https://img.shields.io/badge/javascript-100%25-blue?style=plastic" target="_blank"><img alt="JavaScript use" src="https://img.shields.io/badge/javascript-100%25-blue?style=plastic"/></a>
+ <a href="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic" target="_blank"><img alt="Node.js use" src="https://img.shields.io/badge/node-v12.19.0-orange?style=plastic"/></a>
+ <a href="https://img.shields.io/badge/npm-Inquirer-red?style=plastic" target="_blank"><img alt="npm package Inquirer" src="https://img.shields.io/badge/npm-Inquirer-red?style=plastic" /></a>
+ <a href="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic" target="_blank"><img alt="M.I.T. License use" src="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"/></a>  
 
 
 ## Description
@@ -69,7 +69,7 @@ THEN I am taken to the corresponding section of the README
 ## License  
 
 Copyright (c) 2021 DT.  
-This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
+This project is [MIT](https://choosealicense.com/licenses/mit) licensed.
 
 ## Contact  
 
