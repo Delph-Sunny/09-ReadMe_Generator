@@ -82,10 +82,8 @@ const promptUser = () => {
 // Function to initialize the app
 const init = async () => {
     try {
-        const answers = await promptUser();
-        console.log(answers);       // FOR TESTING
-        const readme = generateMarkdown(answers);
-        console.log(readme);       // FOR TESTING 
+        const answers = await promptUser();        
+        const readme = generateMarkdown(answers);        
         await writeFileAsync("README.md", readme);
         console.log("README.md written successfully");
     } catch (error) {
