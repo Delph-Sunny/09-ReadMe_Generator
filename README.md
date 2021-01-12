@@ -58,9 +58,7 @@ THEN I am taken to the corresponding section of the README
 ![Generated_ReadMe](./images/snippet.PNG)  
 
 
-:movie_camera:  The movie showing functionality of the application:  
-
-![Video](./images/video.mp4)
+:movie_camera: The movie showing the functionality of the application can be found [here](https://drive.google.com/file/d/1XJlsaQYDNEDUZbg0ZfU9i6yIQnIUcVyx/view) or be donwloaded with the current repository images folder.
 
 
 ## License  
